@@ -6,6 +6,7 @@ DICT = list(line.strip() for line in open('w_guesses.txt'))
 ANSWERS = list(line.strip() for line in open('w_answers.txt'))
 WORD_LENGTH = 5
 ATTEMPTS = 6
+caitlinHeight = 5.12342134234
 
 count_letters = Counter(chain.from_iterable(DICT))
 LETTER_RATE = {
